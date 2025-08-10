@@ -1,22 +1,5 @@
 # Multi-Agent Financial Analysis System
 A Python-based modular multi-agent system that fetches, analyzes, and interprets financial data using coordinated agent workflows to deliver investment insights.
-## 📂 Project Structure
-project/
-│
-├── financial_analysis.py # Main entry point
-├── venv/ # Python virtual environment (not uploaded to GitHub)
-└── financial_analysis/
-├── init.py
-├── analysis.py # Performs data analysis & technical computations
-├── config.py # Stores configuration values and constants
-├── logging.py # Centralized logging setup
-├── utils.py # Helper functions
-│
-├── agents/
-│ ├── data_fetcher.py # Fetches financial data from APIs (e.g., yfinance)
-│ ├── expert_agent.py # Provides investment recommendations based on analysis
-│ ├── news_agent.py # Fetches and summarizes latest financial news
-│ └── coordinator.py # Coordinates communication between all agents
 
 ## ⚙️ Features
 
